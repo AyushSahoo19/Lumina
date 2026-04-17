@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect | Lumina</title>
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .connect-container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+        .connect-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 500px;
+        }
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            text-decoration: none;
+            color: var(--textColorBase);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            backdrop-filter: blur(20px);
+        }
+        .social-link:hover {
+            transform: scale(1.02);
+            border-color: var(--accent);
+            background: rgba(94, 106, 210, 0.1);
+        }
+        .social-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .social-info span {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+        }
+        .social-info h3 {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .social-arrow {
+            opacity: 0.3;
+            transition: all 0.3s ease;
+        }
+        .social-link:hover .social-arrow {
+            opacity: 1;
+            transform: translateX(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="background-effect"></div>
+    
+    <div class="split-layout">
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <div class="top-nav-links">
+                    <a href="index.html" class="nav-item" title="Home">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                        <span class="nav-text">Home</span>
+                    </a>
+                    <a href="journal.html" class="nav-item" title="Journal">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path><path d="M8 7h6"></path><path d="M8 11h8"></path></svg>
+                        <span class="nav-text">Journal</span>
+                    </a>
+                    <a href="about.html" class="nav-item" title="About">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+                        <span class="nav-text">About</span>
+                    </a>
+                    <a href="connect.html" class="nav-item active" title="Connect">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                        <span class="nav-text">Connect</span>
+                    </a>
+                </div>
+
+                <div class="brand-section">
+                    <h1 class="brand-name">Lumina</h1>
+                    <span class="brand-symbol">✧</span>
+                </div>
+                
+                <div class="hero-content">
+                    <div class="hero-badge">Connect</div>
+                    <p class="hero-subtitle">Get in touch or follow the journey across the web.</p>
+                </div>
+            </div>
+
+            <div class="sidebar-bottom">
+                <p class="copyright">© 2026 Lumina. Built for Ayush.</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="connect-container">
+                <div class="connect-list">
+                    <a href="mailto:hello@lumina.io" class="social-link">
+                        <div class="social-info">
+                            <span>Email</span>
+                            <h3>hello@lumina.io</h3>
+                        </div>
+                        <div class="social-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </a>
+
+                    <a href="https://twitter.com" class="social-link">
+                        <div class="social-info">
+                            <span>Twitter / X</span>
+                            <h3>@lumina_craft</h3>
+                        </div>
+                        <div class="social-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com" class="social-link">
+                        <div class="social-info">
+                            <span>GitHub</span>
+                            <h3>lumina-labs</h3>
+                        </div>
+                        <div class="social-arrow">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
