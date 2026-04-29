@@ -47,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 40px 60px 80px 60px;
+    padding: 40px 60px 30px 60px;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
     background: rgba(5, 5, 5, 0.4);
     backdrop-filter: blur(20px);
@@ -195,8 +195,11 @@ body {
 }
 
 .copyright {
-    color: rgba(255, 255, 255, 0.1);
-    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 /* Main Content Area */
