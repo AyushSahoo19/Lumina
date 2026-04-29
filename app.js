@@ -23,7 +23,12 @@ const linksData = [
             { url: "https://www.ancestry.com/stories-of-us", title: "Ancestry Stories of Us", sub: "Showcase" },
             { url: "https://www.framer.com/domains/?utm_source=dribbble&utm_medium=paid&utm_campaign=freedomains&dub_id=bnrKPNz5mx488N0U", title: "Framer Domains", sub: "Tools" },
             { url: "https://dataclay.com/landing/try-dataclay-templater/?utm_source=dribbble&utm_medium=sponsorship&utm_campaign=templater&utm_content=t_logo", title: "Dataclay Templater", sub: "Tools" },
-            { url: "https://chromewebstore.google.com/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm", title: "Save Tabs Extension", sub: "Tools" }
+            { url: "https://chromewebstore.google.com/detail/save-all-tab-urls/bgjfbcjoaghcfdhnnnnaofkjbnelkkcm", title: "Save Tabs Extension", sub: "Tools" },
+            { url: "https://lusion.co/about", title: "Lusion Studio", sub: "Studio" },
+            { url: "https://1105-ddd2024-homepage.lusion.co/", title: "Lusion DDD 2024", sub: "Showcase" },
+            { url: "https://edankwan.com/", title: "Edan Kwan", sub: "Studio" },
+            { url: "https://particle-love.com/", title: "Particle Love", sub: "Showcase" },
+            { url: "https://claude.ai/design", title: "Claude AI Design", sub: "Tools" }
         ]
     },
     {
@@ -37,7 +42,8 @@ const linksData = [
             { url: "https://gemini.google.com", title: "Google Gemini", sub: "Chat" },
             { url: "https://perplexity.ai", title: "Perplexity AI", sub: "Search" },
             { url: "https://huggingface.co/chat", title: "HuggingChat", sub: "Chat" },
-            { url: "https://meta.ai", title: "Meta AI", sub: "Chat" }
+            { url: "https://meta.ai", title: "Meta AI", sub: "Chat" },
+            { url: "https://platform.claude.com/login?returnTo=%2F%3F", title: "Claude Platform", sub: "Platform" }
         ]
     },
     {
@@ -51,21 +57,53 @@ const linksData = [
             { url: "https://stackoverflow.com", title: "Stack Overflow", sub: "Community" },
             { url: "https://vercel.com", title: "Vercel Deployment", sub: "Dev" },
             { url: "https://figma.com", title: "Figma Design", sub: "Dev" },
-            { url: "https://css-tricks.com", title: "CSS Tricks", sub: "Docs" }
+            { url: "https://css-tricks.com", title: "CSS Tricks", sub: "Docs" },
+            { url: "https://eng-10-x.vercel.app/courses/mathematics", title: "ENG-10X Mathematics", sub: "Edu" },
+            { url: "https://n8n.io/", title: "n8n Automation", sub: "Tools" },
+            { url: "https://docs.n8n.io/hosting/", title: "n8n Hosting Docs", sub: "Docs" },
+            { url: "https://news.ycombinator.com/", title: "Hacker News", sub: "Community" }
         ]
     },
     {
         id: "aiml",
-        title: "AI & ML",
+        title: "AI & Agents",
         iconClass: "cat-icon-aiml",
-        icon: "📊",
+        icon: "🤖",
         links: [
             { url: "https://huggingface.co", title: "Hugging Face Hub", sub: "Community" },
             { url: "https://paperswithcode.com", title: "Papers With Code", sub: "Research" },
             { url: "https://kaggle.com", title: "Kaggle", sub: "Community" },
             { url: "https://replicate.com", title: "Replicate", sub: "Models" },
             { url: "https://pytorch.org", title: "PyTorch Deep Learning", sub: "Research" },
-            { url: "https://civitai.com", title: "Civitai Models", sub: "Models" }
+            { url: "https://civitai.com", title: "Civitai Models", sub: "Models" },
+            { url: "https://github.com/AyushSahoo19/ENG-10X", title: "ENG-10X Repo", sub: "Dev" },
+            { url: "https://claude.com/solutions/agents", title: "Claude Agent Solutions", sub: "Research" },
+            { url: "https://www.anthropic.com/engineering/building-effective-agents", title: "Building Effective Agents", sub: "Engineering" },
+            { url: "https://code.claude.com/docs/en/agent-sdk/python", title: "Claude Agent SDK", sub: "Docs" },
+            { url: "https://agentswarm.ai/", title: "Agent Swarm", sub: "Tools" },
+            { url: "https://oryzo.ai/", title: "Oryzo AI", sub: "Tools" },
+            { url: "https://pinokio.co/", title: "Pinokio Browser", sub: "Tools" },
+            { url: "https://github.com/pinokiocomputer/pinokio", title: "Pinokio Repo", sub: "Dev" }
+        ]
+    },
+    {
+        id: "utilities",
+        title: "Daily Utilities",
+        iconClass: "cat-icon-utils",
+        icon: "⚡",
+        links: [
+            { url: "https://web.whatsapp.com/", title: "WhatsApp Web", sub: "Social" },
+            { url: "https://mail.google.com/mail/u/0/#sent", title: "Gmail Sent", sub: "Mail" },
+            { url: "https://us06web.zoom.us/postattendee", title: "Zoom Meeting", sub: "Meeting" },
+            { url: "https://www.makemytrip.com/railways/listing?from=BSB&to=RNC", title: "MakeMyTrip Rail", sub: "Travel" },
+            { url: "https://www.youtube.com/watch?v=8YHHgwj89vE", title: "Agent Research Video", sub: "Video" },
+            { url: "https://console.cloud.google.com/billing", title: "GCP Console", sub: "Cloud" },
+            { url: "https://www.google.com/search?q=how+to+use+claude+design", title: "Claude Design Search", sub: "Search" },
+            { url: "https://www.google.com/search?q=what+is+d2c+business", title: "D2C Business Search", sub: "Search" },
+            { url: "https://www.google.com/search?q=cat+king", title: "Cat King Search", sub: "Search" },
+            { url: "chrome-extension://ddgilliopjknmglnpkegbjpoilgachlm/installer.html?try=1186", title: "Ext Installer 1", sub: "Tools" },
+            { url: "chrome-extension://ddgilliopjknmglnpkegbjpoilgachlm/installer.html?try=1188", title: "Ext Installer 2", sub: "Tools" },
+            { url: "chrome-extension://ddgilliopjknmglnpkegbjpoilgachlm/installer.html?try=1189", title: "Ext Installer 3", sub: "Tools" }
         ]
     }
 ];
